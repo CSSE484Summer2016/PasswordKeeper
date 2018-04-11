@@ -6,7 +6,7 @@ target 'Password Keeper' do
   use_frameworks!
 
   # Pods for Password Keeper
-  pod 'Material'
-  pod 'FoldingCell'
+  pod 'Material', '~> 2.14.0'
+  pod 'FoldingCell', '~> 3.0.6'
 
 end
