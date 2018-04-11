@@ -79,8 +79,8 @@
                                                         <mask key="constraints">
                                                             <exclude reference="TQu-GC-4LV"/>
                                                             <exclude reference="HkO-Hf-0s1"/>
-                                                            <exclude reference="FRY-Px-6NH"/>
                                                             <exclude reference="Aou-z2-T71"/>
+                                                            <exclude reference="FRY-Px-6NH"/>
                                                         </mask>
                                                     </variation>
                                                 </view>
@@ -214,8 +214,8 @@
                                                     <variation key="default">
                                                         <mask key="constraints">
                                                             <exclude reference="F2W-LS-HUb"/>
-                                                            <exclude reference="uxT-dL-KX6"/>
                                                             <exclude reference="rIi-fA-EiB"/>
+                                                            <exclude reference="uxT-dL-KX6"/>
                                                         </mask>
                                                     </variation>
                                                 </view>
@@ -236,9 +236,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="s0e-Ad-eJP"/>
-                                                    <exclude reference="hVR-Yk-ta7"/>
                                                     <exclude reference="hR8-o4-jFd"/>
+                                                    <exclude reference="hVR-Yk-ta7"/>
+                                                    <exclude reference="s0e-Ad-eJP"/>
                                                     <exclude reference="LtF-gA-27D"/>
                                                     <exclude reference="yQt-6x-d4x"/>
                                                 </mask>
@@ -302,10 +302,10 @@
                         <viewLayoutGuide key="safeArea" id="Kmf-Fv-X5Q"/>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="GBg-1y-Hq2"/>
                                 <exclude reference="6WN-Qz-IoM"/>
-                                <exclude reference="LXy-tC-50F"/>
                                 <exclude reference="ELM-X6-cLH"/>
+                                <exclude reference="GBg-1y-Hq2"/>
+                                <exclude reference="LXy-tC-50F"/>
                                 <exclude reference="qMO-Jb-DxW"/>
                             </mask>
                         </variation>
@@ -357,7 +357,7 @@
                                 <rect key="frame" x="36" y="105" width="303" height="240"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78Q-jU-WxE">
-                                        <rect key="frame" x="8" y="8" width="287" height="142"/>
+                                        <rect key="frame" x="8" y="8" width="287" height="124"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hft-CM-CcL" customClass="TextField" customModule="Material">
                                                 <rect key="frame" x="8" y="30" width="271" height="17"/>
@@ -374,7 +374,7 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="Hft-CM-CcL" firstAttribute="centerX" secondItem="8RM-kn-qga" secondAttribute="centerX" id="G9D-13-GoC"/>
-                                            <constraint firstAttribute="height" constant="142" id="IE0-Om-ttx"/>
+                                            <constraint firstAttribute="height" constant="124" id="IE0-Om-ttx"/>
                                             <constraint firstItem="8RM-kn-qga" firstAttribute="top" secondItem="Hft-CM-CcL" secondAttribute="bottom" constant="30" id="JJx-6v-Wq0"/>
                                             <constraint firstItem="Hft-CM-CcL" firstAttribute="leading" secondItem="78Q-jU-WxE" secondAttribute="leading" constant="8" id="MXs-FC-OLh"/>
                                             <constraint firstItem="Hft-CM-CcL" firstAttribute="top" secondItem="78Q-jU-WxE" secondAttribute="top" constant="30" id="dWK-hB-Zo0"/>
@@ -413,8 +413,8 @@
                         <viewLayoutGuide key="safeArea" id="cIa-7z-S52"/>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="jsz-W0-us0"/>
                                 <exclude reference="aBd-q3-f20"/>
+                                <exclude reference="jsz-W0-us0"/>
                                 <exclude reference="pii-ML-Ta7"/>
                                 <exclude reference="2P4-zE-GMt"/>
                                 <exclude reference="8TF-hg-agz"/>

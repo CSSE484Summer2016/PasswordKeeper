@@ -71,6 +71,7 @@ class LoginViewController: UIViewController {
     passwordTextField.isVisibilityIconButtonEnabled = true
     passwordTextField.placeholderActiveColor = Color.grey.darken2
 
+    let bottomBar = Bar()
     let signUpBtn: FlatButton = FlatButton()
     signUpBtn.pulseColor = Color.blue.lighten1
     signUpBtn.setTitle("Sign up", for: .normal)
@@ -78,7 +79,7 @@ class LoginViewController: UIViewController {
     signUpBtn.addTarget(self,
                         action: #selector(handleEmailPasswordSignUp),
                         for: .touchUpInside)
-    emailPasswordCard.bottomBar?.leftViews = [signUpBtn]
+    bottomBar.leftViews = [signUpBtn]
 
     let loginBtn: FlatButton = FlatButton()
     loginBtn.pulseColor = Color.blue.lighten1
@@ -87,7 +88,8 @@ class LoginViewController: UIViewController {
     loginBtn.addTarget(self,
                        action: #selector(handleEmailPasswordLogin),
                        for: .touchUpInside)
-    emailPasswordCard.bottomBar?.rightViews = [loginBtn]
+    bottomBar.rightViews = [loginBtn]
+    emailPasswordCard.bottomBar = bottomBar
 
     emailPasswordCard.toolbarEdgeInsetsPreset = .square3
     emailPasswordCard.toolbarEdgeInsets.bottom = 0
