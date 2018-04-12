@@ -271,7 +271,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4Y-U3-qF5" customClass="FabButton" customModule="Material">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4Y-U3-qF5" customClass="FABButton" customModule="Material">
                                 <rect key="frame" x="295" y="587" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="H4Y-U3-qF5" secondAttribute="height" multiplier="1:1" id="Drd-R6-XJL"/>
