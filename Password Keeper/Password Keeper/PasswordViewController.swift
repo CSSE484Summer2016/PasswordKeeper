@@ -163,4 +163,14 @@ class PasswordViewController: UIViewController, UITableViewDataSource, UITableVi
     }, completion: nil)
   }
 
+  func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+    if let foldingCell = cell as? FoldingCell {
+      if cellHeights[indexPath.row] == kCloseCellHeight {
+        foldingCell.unfold(false, animated: false, completion:nil)
+      } else {
+        foldingCell.unfold(true, animated: false, completion: nil)
+      }
+    }
+  }
+
 }
