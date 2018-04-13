@@ -22,11 +22,9 @@ class LoginViewController: UIViewController {
   @IBOutlet weak var titleLabel: UILabel!
   @IBOutlet weak var emailPasswordCard: Card!
   @IBOutlet weak var emailPasswordCardContent: UIView!
-
   @IBOutlet weak var emailTextField: TextField!
   @IBOutlet weak var passwordTextField: TextField!
 
-  @IBOutlet weak var emailPasswordLoginButton: RaisedButton!
   @IBOutlet weak var rosefireLoginButton: RaisedButton!
   @IBOutlet weak var googleLoginButton: UIView!
   //  @IBOutlet weak var googleLoginButton: GIDSignInButton!

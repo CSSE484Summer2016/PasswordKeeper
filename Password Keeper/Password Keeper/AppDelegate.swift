@@ -31,11 +31,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
 
   func handleLogin() {
-    print("TODO: Implement logging from the AppDelegate")
+    print("TODO: Implement sign in from the AppDelegate")
   }
 
   @objc func handleLogout() {
-    print("TODO: Implement logout from the AppDelegate")
+    print("TODO: Implement sign out from the AppDelegate")
   }
 
   func showLoginViewController() {
