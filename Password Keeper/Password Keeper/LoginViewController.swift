@@ -9,13 +9,6 @@
 import UIKit
 import Material
 
-struct ButtonLayout {
-  struct Raised {
-    static let width: CGFloat = 150
-    static let height: CGFloat = 44
-    static let offsetY: CGFloat = -75
-  }
-}
 
 class LoginViewController: UIViewController {
 
@@ -48,12 +41,9 @@ class LoginViewController: UIViewController {
     rosefireLoginButton.titleLabel!.font = RobotoFont.medium(with: 18)
     rosefireLoginButton.backgroundColor = UIColor(red: 0.5, green: 0, blue: 0, alpha: 0.9)
     rosefireLoginButton.pulseColor = .white
-    view.layout(rosefireLoginButton)
-      .width(ButtonLayout.Raised.width)
-      .height(ButtonLayout.Raised.height)
-
 
     // Google OAuth
+    //    googleLoginButton.style = .wide
 
   }
 
